@@ -14,10 +14,10 @@ package houmeTask;
 public class Task3 {
 
     public static void main(String[] args) {
-        int sideTriangleA1 = 232;
+        int sideTriangleA1 = 9;
         int sideTriangleB1 = 4;
 
-        int sideTriangleA2 = 9;
+        int sideTriangleA2 = -9;
         int sideTriangleB2 = 4;
 
         if (isNotValidSide(sideTriangleA1, sideTriangleA2) || isNotValidSide(sideTriangleA2, sideTriangleB2)) {
@@ -41,7 +41,9 @@ public class Task3 {
         } else if (areaTriangle1 < areaTriangle2) {
             printArea(areaTriangle1, areaTriangle2);
             System.out.println("Больше треугольник площадью " + areaTriangle2);
-        } else System.out.println(areaTriangle1 + " равен " + areaTriangle2);
+        } else
+            printArea(areaTriangle1, areaTriangle2);
+            System.out.println(areaTriangle1 + " равен " + areaTriangle2);
     }
 
     private static void printArea(double areaTriangle1, double areaTriangle2) {
