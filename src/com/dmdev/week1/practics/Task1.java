@@ -1,4 +1,4 @@
-package function.practics;
+package com.dmdev.week1.practics;
 
 /*Задача 1
 Имеются три числа - день, месяц и год, вводимые пользователем с консоли.

@@ -1,4 +1,4 @@
-package lesson15;
+package com.dmdev.week1.lesson15;
 
 public class Lesson15Runner {
 

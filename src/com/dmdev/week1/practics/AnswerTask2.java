@@ -1,4 +1,4 @@
-package function.practics;
+package com.dmdev.week1.practics;
 
 import java.util.Scanner;
 

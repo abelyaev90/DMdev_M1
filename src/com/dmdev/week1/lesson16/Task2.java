@@ -1,4 +1,4 @@
-package lesson16;
+package com.dmdev.week1.lesson16;
 /*2. Дано целое число. Определить, является ли последняя цифра этого числа – цифрой 3.*/
 
 public class Task2 {

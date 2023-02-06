@@ -1,4 +1,4 @@
-package function.practics;
+package com.dmdev.week1.practics;
 
 /*Задача 2
 Написать программу, вычисляющую корни квадратного уравнения вида ax ² + bx + c = 0, где a, b и c - целочисленные параметры функции run.

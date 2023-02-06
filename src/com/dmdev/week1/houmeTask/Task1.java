@@ -1,20 +1,20 @@
-package houmeTask;
+package com.dmdev.week1.houmeTask;
 
-/*Задание 1
-
-В переменной minutes лежит число от 0 до 59.
-Написать функцию, которая принимает в качестве параметра значение переменной minutes и выводит на консоль
-в какую четверть часа попадает это число (в первую, вторую, третью или четвертую).
-
-Протестировать функцию в main.*/
+/**
+ * Задание 1
+ * В переменной minutes лежит число от 0 до 59.
+ * Написать функцию, которая принимает в качестве параметра значение переменной minutes и выводит на консоль
+ * в какую четверть часа попадает это число (в первую, вторую, третью или четвертую).
+ * Протестировать функцию в main.
+ */
 
 public class Task1 {
     public static void main(String[] args) {
         int minutes = 60;
-        whatQuarterOfAnHour(minutes);
+        printWhatQuarterOfAnHour(minutes);
     }
 
-    public static void whatQuarterOfAnHour(int minutes) {
+    public static void printWhatQuarterOfAnHour(int minutes) {
         if (minutes >= 0 && minutes <= 15) {
             System.out.println(minutes + " находится в первой четверти часа");
         } else if (minutes > 15 && minutes <= 30) {
