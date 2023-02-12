@@ -1,4 +1,4 @@
-package com.dmdev.week1.houmeTask;
+package com.dmdev.week1.houmework;
 
 /**
  * Задание 1
