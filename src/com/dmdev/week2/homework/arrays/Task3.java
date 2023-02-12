@@ -3,6 +3,7 @@ package com.dmdev.week2.homework.arrays;
 import java.util.Arrays;
 
 /**
+ * Update branch
  * Задание 3
  * Дан одномерный массив целых чисел.
  * <p>
