@@ -3,7 +3,7 @@ package com.dmdev.week2.homework.arrays;
 import java.util.Arrays;
 
 /**
- * Update branch!
+ * Update branch!rep
  * Задание 2
  * Дан одномерный массив символов.
  * Преобразовать его в одномерный массив чисел, где число - это код символа (любой символ - это число в памяти компьютера).
