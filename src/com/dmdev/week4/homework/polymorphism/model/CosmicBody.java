@@ -23,6 +23,7 @@ public abstract class CosmicBody {
         System.out.println("Масса " + getMass());
         System.out.println("Расстояние до Звезды Смерти " + getDistanceToDeathStar());
         System.out.println("Есть ли атмосфера? " + isAtmosphere());
+        System.out.println();
     }
 
     public String getName() {
@@ -40,5 +41,4 @@ public abstract class CosmicBody {
     public boolean isAtmosphere() {
         return atmosphere;
     }
-
 }
