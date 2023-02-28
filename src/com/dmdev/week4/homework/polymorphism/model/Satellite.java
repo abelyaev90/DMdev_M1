@@ -1,7 +1,4 @@
-package com.dmdev.week4.homework.polymorphism.abstrackt;
-
-import com.dmdev.week4.homework.polymorphism.abstrackt.CosmicBody;
-import com.dmdev.week4.homework.polymorphism.abstrackt.Planet;
+package com.dmdev.week4.homework.polymorphism.model;
 
 public abstract class Satellite extends CosmicBody {
 

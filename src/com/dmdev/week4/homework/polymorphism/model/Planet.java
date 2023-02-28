@@ -1,4 +1,4 @@
-package com.dmdev.week4.homework.polymorphism.abstrackt;
+package com.dmdev.week4.homework.polymorphism.model;
 
 import com.dmdev.week4.homework.polymorphism.planet.Population;
 
@@ -28,7 +28,9 @@ public abstract class Planet extends CosmicBody {
     }
 
 
-    public abstract void printInfoPopulation();
+    public  void printInfoPopulation() {
+        System.out.println("Население планеты " + getPopulation().getQuantity());
+    };
 
     public int getRadius() {
         return radius;

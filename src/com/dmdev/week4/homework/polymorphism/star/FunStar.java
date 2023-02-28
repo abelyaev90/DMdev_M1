@@ -1,6 +1,6 @@
 package com.dmdev.week4.homework.polymorphism.star;
 
-import com.dmdev.week4.homework.polymorphism.abstrackt.Star;
+import com.dmdev.week4.homework.polymorphism.model.Star;
 
 public class FunStar extends Star {
 
@@ -18,8 +18,4 @@ public class FunStar extends Star {
         System.out.println("все кто долетал до этой звезды, возвращались счастливыми");
     }
 
-    @Override
-    public void printBasicData() {
-        super.printBasicData();
-    }
 }

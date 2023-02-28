@@ -1,6 +1,4 @@
-package com.dmdev.week4.homework.polymorphism.abstrackt;
-
-import java.util.Locale;
+package com.dmdev.week4.homework.polymorphism.model;
 
 public abstract class CosmicBody {
 

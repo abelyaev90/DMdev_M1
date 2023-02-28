@@ -1,7 +1,7 @@
 package com.dmdev.week4.homework.polymorphism.satellite;
 
-import com.dmdev.week4.homework.polymorphism.abstrackt.Planet;
-import com.dmdev.week4.homework.polymorphism.abstrackt.Satellite;
+import com.dmdev.week4.homework.polymorphism.model.Planet;
+import com.dmdev.week4.homework.polymorphism.model.Satellite;
 
 public class Utapau extends Satellite {
 
@@ -24,8 +24,4 @@ public class Utapau extends Satellite {
         return 0;
     }
 
-    @Override
-    public void printBasicData() {
-        super.printBasicData();
-    }
 }

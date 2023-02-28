@@ -1,6 +1,6 @@
 package com.dmdev.week4.homework.polymorphism.star;
 
-import com.dmdev.week4.homework.polymorphism.abstrackt.Star;
+import com.dmdev.week4.homework.polymorphism.model.Star;
 
 public class DeathStar extends Star {
 
@@ -18,8 +18,4 @@ public class DeathStar extends Star {
         System.out.println("При достижении Звезды Смерти искажается время");
     }
 
-    @Override
-    public void printBasicData() {
-        super.printBasicData();
-    }
 }

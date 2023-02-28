@@ -1,19 +1,25 @@
 package com.dmdev.week4.homework.polymorphism;
 
-import com.dmdev.week4.homework.polymorphism.abstrackt.*;
 import com.dmdev.week4.homework.polymorphism.comet.Galley;
 import com.dmdev.week4.homework.polymorphism.comet.Kohouteck;
+import com.dmdev.week4.homework.polymorphism.model.Comet;
+import com.dmdev.week4.homework.polymorphism.model.CosmicBody;
+import com.dmdev.week4.homework.polymorphism.model.Planet;
+import com.dmdev.week4.homework.polymorphism.model.Satellite;
+import com.dmdev.week4.homework.polymorphism.model.Star;
 import com.dmdev.week4.homework.polymorphism.planet.Korusant;
 import com.dmdev.week4.homework.polymorphism.planet.Nabu;
-import com.dmdev.week4.homework.polymorphism.planet.Population;
 import com.dmdev.week4.homework.polymorphism.planet.Tatuin;
 import com.dmdev.week4.homework.polymorphism.satellite.Skcarif;
 import com.dmdev.week4.homework.polymorphism.satellite.Utapau;
 import com.dmdev.week4.homework.polymorphism.star.DeathStar;
 import com.dmdev.week4.homework.polymorphism.star.FunStar;
-
-import static com.dmdev.week4.homework.polymorphism.planet.Population.*;
-import static com.dmdev.week4.homework.polymorphism.utils.SpaceUtils.*;
+import static com.dmdev.week4.homework.polymorphism.planet.Population.AVERAGE;
+import static com.dmdev.week4.homework.polymorphism.planet.Population.BIG;
+import static com.dmdev.week4.homework.polymorphism.planet.Population.SMALL;
+import static com.dmdev.week4.homework.polymorphism.utils.SpaceUtils.determinationOfForceOfGravity;
+import static com.dmdev.week4.homework.polymorphism.utils.SpaceUtils.getDistanceCometToDeathStar;
+import static com.dmdev.week4.homework.polymorphism.utils.SpaceUtils.isStar;
 
 public class GalacticRunner {
 

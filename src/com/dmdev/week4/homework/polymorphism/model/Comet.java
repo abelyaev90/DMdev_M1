@@ -1,7 +1,6 @@
-package com.dmdev.week4.homework.polymorphism.abstrackt;
+package com.dmdev.week4.homework.polymorphism.model;
 
 import com.dmdev.week4.homework.polymorphism.Flying;
-import com.dmdev.week4.homework.polymorphism.abstrackt.CosmicBody;
 
 public abstract class Comet extends CosmicBody implements Flying {
 

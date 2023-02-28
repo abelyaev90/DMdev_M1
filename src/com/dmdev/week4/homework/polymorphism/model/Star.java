@@ -1,6 +1,4 @@
-package com.dmdev.week4.homework.polymorphism.abstrackt;
-
-import com.dmdev.week4.homework.polymorphism.abstrackt.CosmicBody;
+package com.dmdev.week4.homework.polymorphism.model;
 
 public abstract class Star extends CosmicBody {
 

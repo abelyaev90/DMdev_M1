@@ -1,7 +1,7 @@
 package com.dmdev.week4.homework.polymorphism.utils;
 
-import com.dmdev.week4.homework.polymorphism.abstrackt.CosmicBody;
-import com.dmdev.week4.homework.polymorphism.abstrackt.Star;
+import com.dmdev.week4.homework.polymorphism.model.CosmicBody;
+import com.dmdev.week4.homework.polymorphism.model.Star;
 
 public class SpaceUtils {
 

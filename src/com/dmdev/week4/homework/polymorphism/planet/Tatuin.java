@@ -1,7 +1,7 @@
 package com.dmdev.week4.homework.polymorphism.planet;
 
 import com.dmdev.week4.homework.polymorphism.Living;
-import com.dmdev.week4.homework.polymorphism.abstrackt.Planet;
+import com.dmdev.week4.homework.polymorphism.model.Planet;
 
 import static com.dmdev.week4.homework.polymorphism.utils.SpaceUtils.*;
 
@@ -42,17 +42,6 @@ public class Tatuin extends Planet implements Living {
     @Override
     public boolean isLiving() {
         return isAtmosphere() && getDistanceToDeathStar() > LIFE_DISTANCE;
-    }
-
-    @Override
-    public void printBasicData() {
-        super.printBasicData();
-    }
-
-
-    @Override
-    public void printInfoPopulation() {
-        System.out.println("Население планеты " + getPopulation().getQuantity());
     }
 
     @Override

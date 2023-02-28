@@ -1,6 +1,6 @@
 package com.dmdev.week4.homework.polymorphism.comet;
 
-import com.dmdev.week4.homework.polymorphism.abstrackt.Comet;
+import com.dmdev.week4.homework.polymorphism.model.Comet;
 
 public class Kohouteck extends Comet {
 
