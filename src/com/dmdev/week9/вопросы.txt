@@ -1,0 +1,6 @@
+Указал классы в которых есть вопросы.
+
+1) VolatileDemo (com.dmdev.week9.multithreading.lesson25.val.VolatileDemo)
+2) ThreadDemo (com.dmdev.week9.thread.less1.ThreadDemo)
+3) Example (com.dmdev.week9.multithreading.lesson25.example.Example)
+4) BuyerThread (src/com/dmdev/week9/multithreading/lesson25/queue/BuyerThread.java)
